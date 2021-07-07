@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v27-latin-300.woff2') format('woff2'),
+       url('../fonts/roboto-v27-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+       url('../fonts/roboto-v27-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v27-latin-700.woff2') format('woff2'),
+       url('../fonts/roboto-v27-latin-700.woff') format('woff');
+}
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* .container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #08f8e4;
+}
+
+.maket {
+  max-width: 655px;
+  height: 585px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  margin-top: 160px;
+  color: black;
+
+}
+
+.total_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.simple {
+  margin: 0;
+  padding: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.simple_h1 {
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.simple_img {
+  width: 40px;
+  height: 40px;
+}
+
+.simple_p {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(178, 187, 196);
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.single, .gel {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #787a7a;
+}
+
+.span {
+  font-weight: 700;
+  font-size: 26px;
+  font-style: normal;
+}
+
+.total {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total_h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.images {
+  width: 654px;
+  height: 336px;
+  margin-top: -101px;
+  object-fit: cover;
+  object-position: center top;
+}
