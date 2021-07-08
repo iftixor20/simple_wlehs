@@ -33,13 +33,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
-/* .container {
+.container {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-} */
+}
 body {
   margin: 0;
   padding: 0;
@@ -47,34 +47,36 @@ body {
 }
 
 .maket {
-  max-width: 655px;
   height: 585px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffff;
-  margin-top: 160px;
   color: black;
-
+  max-width: 655px;
+  margin-left: auto;
+  margin-top: 160px;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  object-fit: cover;
+  background-size: 653px 500px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-position: 0 230px;
+  background-image: url(../img/bicycle.png);
 }
 
 .total_text {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding-left: 60px;
-  padding-right: 60px;
+  justify-content: space-between;
 }
 
 .simple {
   margin: 0;
   padding: 0;
-  padding-left: 60px;
-  padding-right: 60px;
   display: flex;
   text-align: center;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .simple_h1 {
@@ -91,39 +93,35 @@ body {
 .simple_p {
   padding: 0;
   margin: 0;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
   color: rgb(178, 187, 196);
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 .single, .gel {
-  padding-left: 60px;
-  padding-right: 60px;
   display: flex;
   font-size: 20px;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .text {
   font-size: 18px;
   font-weight: 400;
-  font-style: normal;
   color: #787a7a;
+  font-style: normal;
 }
 
 .span {
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   font-style: normal;
 }
 
 .total {
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .total_h2 {
@@ -132,10 +130,4 @@ body {
   font-style: normal;
 }
 
-.images {
-  width: 654px;
-  height: 336px;
-  margin-top: -92px;
-  object-fit: cover;
-  object-position: center top;
-}
+
